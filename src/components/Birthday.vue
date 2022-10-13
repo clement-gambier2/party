@@ -1,15 +1,25 @@
 <template>
-    <header> 
-        <h1>Anniversaire d'Hélène</h1>
-        <img src="../assets/guitar.jpeg">
-    </header>
+  <header>
+    <h1>Les 25 ans d'Hélène 🎉😙</h1>
+    <!-- <img src="../assets/guitar.jpeg"> -->
+  </header>
+  <section>
+  <h2>Quand ? Comment ? Où ?  🧐</h2>
+    <ul>
+      <li>Le Samedi 10 Septembre à 18h30 ! </li>
+      <li>À la panoramique, notre super appartement à Clément et moi. Autrement dit au 10 avenue de l'Architecte Cordonnier à Lille.</li>
+    </ul>
+  </section>
 </template>
-  
 <script>
-    export default {
-
-    }
+export default {
+  
+}
 </script>
 
-
-  
+<style>
+img {
+  width: 20%;
+  height: auto;
+}
+</style>
