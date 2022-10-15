@@ -31,7 +31,7 @@ export default {
     const onSubmit = async () => {
       await createUser({ ...form })
       form.name = ''
-      form.email = ''
+      form.available = ''
     }
 
     return { form, onSubmit }
