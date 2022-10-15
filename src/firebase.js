@@ -41,3 +41,33 @@ export const useLoadUsers = () => {
   onUnmounted(close)
   return users
 }
+
+
+// bring section
+const bringCollection = db.collection('bring')
+
+export const createBring = user => {
+  return bringCollection.add(user)
+}
+
+export const getBring = async id => {
+  const bring = await bringCollection.doc(id).get()
+  return bring.exists ? bring.data() : null
+}
+
+export const updateBring = (id, user) => {
+  return bringCollection.doc(id).update(user)
+}
+
+export const deleteBring = id => {
+  return bringCollection.doc(id).delete()
+}
+
+export const useLoadBring = () => {
+  const bring = ref([])
+  const close = bringCollection.onSnapshot(snapshot => {
+    bring.value = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }))
+  })
+  onUnmounted(close)
+  return bring
+}

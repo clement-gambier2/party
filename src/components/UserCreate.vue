@@ -1,5 +1,6 @@
 <template>
   <div class="card card-body mt-4">
+    <h2>Disponible ou pas ? 😗</h2>
     <form @submit.prevent="onSubmit">
       <div class="form-group">
         <label>Nom</label>
@@ -30,7 +31,7 @@ export default {
     const onSubmit = async () => {
       await createUser({ ...form })
       form.name = ''
-      form.email = ''
+      form.available = ''
     }
 
     return { form, onSubmit }
