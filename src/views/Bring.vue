@@ -1,15 +1,17 @@
 <template>
   <section>
     <h1> Ce que j'apporte </h1>
-    <BringComponent />
+    <BringList />
+    <BringCreate />
   </section>
 </template>
 
 
 <script>
-  import BringComponent from "@/components/BringComponent.vue";
+  import BringList from "@/components/BringList.vue";
+import BringCreate from "../components/BringCreate.vue";
   export default {
-    components: { BringComponent }
+    components: { BringList, BringCreate }
   }
 
 
