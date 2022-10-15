@@ -15,12 +15,12 @@
           <td>{{ object }}</td>
           
           <td>
-            <router-link :to="`/edit/${id}`">
+            <router-link :to="`/editbring/${id}`">
               <button class="btn btn-primary btn-sm me-2">
                 Modifier
               </button>
             </router-link>
-            <button class="btn btn-danger btn-sm" @click="deleteUser(id)">
+            <button class="btn btn-danger btn-sm" @click="deleteBring(id)">
               Supprimer
             </button>
           </td>
