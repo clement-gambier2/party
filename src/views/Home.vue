@@ -1,6 +1,8 @@
 <template>
   <Birthday />
-  <UserCreate />
+  <section class="flex justify-center ">
+    <UserCreate />
+  </section>
   <UserList />
 </template>
 
