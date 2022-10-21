@@ -1,7 +1,7 @@
 <template>
   <section>
-    <BringList />
     <BringCreate />
+    <BringList />
   </section>
 </template>
 

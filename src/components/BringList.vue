@@ -14,11 +14,9 @@
         <td class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">{{ object }}</td>
         <td>
           <router-link :to="`/editbring/${id}`">
-            <button class="btn btn-primary btn-sm me-2  hover:underline">Modifier</button>
+            <button class="btn btn-primary btn-sm me-2  hover:underline mr-2">Modifier</button>
           </router-link>
-          <button class="btn btn-danger btn-sm  hover:underline" @click="deleteBring(id)">
-            Supprimer
-          </button>
+          <button class="btn btn-danger btn-sm  hover:underline" @click="deleteBring(id)">Supprimer</button>
         </td>
 
 </tr>
@@ -33,7 +31,6 @@ import { useLoadBring, deleteBring } from '@/firebase'
 export default {
   setup() {
     const bring = useLoadBring()
-    console.log(bring)
     return { bring, deleteBring }
   }
 }
