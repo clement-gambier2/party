@@ -15,9 +15,9 @@
       <td v-if="available == false">❌</td>
       <td>
       <router-link :to="`/edit/${id}`">
-      <button class="mr-4 inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
+        <button class="btn btn-primary btn-sm me-2  hover:underline mr-2">Modifier</button>
       </router-link>
-      <button class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-red-400" @click="deleteUser(id)">Supprimer</button>
+      <button class="btn btn-danger btn-sm  hover:underline" @click="deleteUser(id)">Supprimer</button>
       </td>
     </tr>
   </tbody>
