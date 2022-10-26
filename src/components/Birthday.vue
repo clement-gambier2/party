@@ -32,29 +32,30 @@
             <li class="flex items-center py-2 space-x-4 xl:py-3">
               <p>🎉</p>
               <span class="font-medium text-gray-500">Samedi 10 Décembre. <br> Heure officielle : 20h <br> Heure officieuse : 17h15 l'heure du ricard !</span>
-              <div class="atcb" style="display:none;">
-              {
-                "name":"Anniversaire d'Hélène",
-                "description":"Oh la chance tu es invité.e à ma super teuf de pré-anniversaire !",
-                "startDate":"2022-12-10",
-                "endDate":"2022-12-10",
-                "startTime":"20:00",
-                "endTime":"23:59",
-                "location":"10 avenue de l'architecte Cordonnier, Lille",
-                "options":[
-                  "Apple",
-                  "Google",
-                  "iCal",
-                  "Microsoft365",
-                  "MicrosoftTeams",
-                  "Outlook.com",
-                  "Yahoo"
-                ],
-                "timeZone":"Europe/Paris",
-                "iCalFileName":"Reminder-Event"
-              }
-              </div>
+
             </li>
+            <div class="atcb" style="display:none;">
+              {
+              "name":"Anniversaire d'Hélène",
+              "description":"Oh la chance tu es invité.e à ma super teuf de pré-anniversaire !",
+              "startDate":"2022-12-10",
+              "endDate":"2022-12-10",
+              "startTime":"20:00",
+              "endTime":"23:59",
+              "location":"10 avenue de l'architecte Cordonnier, Lille",
+              "options":[
+              "Apple",
+              "Google",
+              "iCal",
+              "Microsoft365",
+              "MicrosoftTeams",
+              "Outlook.com",
+              "Yahoo"
+              ],
+              "timeZone":"Europe/Paris",
+              "iCalFileName":"Reminder-Event"
+              }
+            </div>
             <p class="text-[#C1B179] text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading"> Où ? </p>
             <li class="flex items-center py-2 space-x-4 xl:py-3">
               <p>🎂</p>
