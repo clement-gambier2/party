@@ -6,7 +6,7 @@
     </router-link>
     <nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200 md:border-r">
       <router-link to="/" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Accueil</router-link>
-      <router-link to="/bring" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Apporter</router-link>
+      <router-link to="/bring" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Quoi apporter</router-link>
     </nav>
     </div>
   </div>
